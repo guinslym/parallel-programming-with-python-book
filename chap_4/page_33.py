@@ -109,7 +109,7 @@ print(threads) =>
     <Thread(Thread-3, initial daemon)>,
     <Thread(Thread-4, initial daemon)>
 ]
-
+"""
 
 
 """
@@ -119,6 +119,7 @@ calculate the Fibonacci serie by using the following code:
 ???why is it a list comprehension??? what is the output of this list
 """
 #p = [thread.start() for thread in threads]
+#print(p) => [None,None,None,None]
 for thread in threads:
     #start each thread <Thread(Thread-1, initial daemon)>
     thread.start()
