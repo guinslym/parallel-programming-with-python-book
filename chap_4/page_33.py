@@ -145,4 +145,15 @@ RESULT:
 2016-06-29 17:41:06,245 - [Thread-2] - Result {10: 55, 3: 2, 5: 5}
 2016-06-29 17:41:06,246 - [Thread-4] - Result {10: 55, 3: 2, 5: 5, 7: 13}
 
+
+Processus ...(reminder)
+
+fibonacci_task() ->
+    queue_task() ->
+        created a set of four threads ->
+        started the execution of the threads created
+                    to calculate the Fibonacci ->
+        created a thread that will populate shared_queue
+                    and start its execution ->
+        we called the join() method
 """
