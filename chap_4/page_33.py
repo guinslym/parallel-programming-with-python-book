@@ -32,8 +32,9 @@ shared_queue = Queue()
 input_list = [3,10,5,7]
 
 """
-synchronize the access to resources according to a specific condition
-controlling the creation of queues
+In the following line of code, we will define an object from the threading module
+called Condition. This object aims to synchronize the access to resources according
+to a specific condition.
 """
 queue_condition = threading.Condition()
 
