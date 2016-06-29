@@ -1,5 +1,11 @@
 #coding: utf-8
-import logging, threading
+import logging
+"""
+The threading module offers a friendly interface for the _thread module,
+making its use more convenient compare to the _thread module.
+"""
+import threading
+
 
 """
 The Queue module implements multi-producer, multi-consumer queues.
